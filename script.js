@@ -1,8 +1,8 @@
-// Берём элементы
+
 const searchInput = document.querySelector("header input");
 const cards = document.querySelectorAll(".card");
 
-// Слушаем ввод
+
 searchInput.addEventListener("input", function() {
   const query = this.value.toLowerCase();
 
